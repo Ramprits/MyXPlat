@@ -28,7 +28,8 @@
     "start.web.client": "ng serve web-client",
     "start.web.yourapp": "ng serve web-yourapp",
     "start.admin": "electron ./node_modules/@nstudio/schematics/admin",
-    "start.web.angular6": "ng serve web-angular6"
+    "start.web.angular6": "ng serve web-angular6",
+    "build.web.angular6": "ng build --prod web-angular6"
   },
   "private": true,
   "dependencies": {
