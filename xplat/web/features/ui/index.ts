@@ -1,1 +1,1 @@
-export { UIModule } from './ui.module';
+export { UIModule } from '@myworkspace/web/features/ui/ui.module';

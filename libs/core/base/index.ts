@@ -1,1 +1,1 @@
-export * from './base-component';
+export * from '@myworkspace/core/base/base-component';

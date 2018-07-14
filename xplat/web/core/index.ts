@@ -1,2 +1,2 @@
-export * from './base';
-export { FooCoreModule } from './core.module';
+export * from '@myworkspace/web/core/base';
+export { FooCoreModule } from '@myworkspace/web/core/core.module';

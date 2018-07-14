@@ -1,4 +1,4 @@
-import { FooCoreModule } from './core.module';
+import { FooCoreModule } from '@myworkspace/web/core/core.module';
 
 describe('FooCoreModule', () => {
   it('should work', () => {
