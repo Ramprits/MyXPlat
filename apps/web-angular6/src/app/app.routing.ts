@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'contact',
     loadChildren: './features/contact/contact.module#ContactModule'
+  },
+  {
+    path: 'comments',
+    loadChildren: './features/comments/comments.module#CommentsModule'
   }
 ];
 
