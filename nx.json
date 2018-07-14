@@ -25,6 +25,12 @@
     },
     "web-yourapp-e2e": {
       "tags": []
+    },
+    "web-angular6": {
+      "tags": []
+    },
+    "web-angular6-e2e": {
+      "tags": []
     }
   }
 }
