@@ -1,4 +1,4 @@
-export * from './base';
-export * from './environments/environment';
-export * from './services';
-export { CoreModule } from './core.module';
+export * from '@myworkspace/core/base';
+export * from '@myworkspace/core/environments/environment';
+export * from '@myworkspace/core/services';
+export { CoreModule } from '@myworkspace/core/core.module';

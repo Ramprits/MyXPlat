@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: './features/home/home.module#HomeModule'
+  },
+  {
+    path: 'contact',
+    loadChildren: './features/contact/contact.module#ContactModule'
   }
 ];
 

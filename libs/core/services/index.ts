@@ -1,8 +1,8 @@
-import { LogService } from './log.service';
-import { WindowService } from './window.service';
+import { LogService } from '@myworkspace/core/services/log.service';
+import { WindowService } from '@myworkspace/core/services/window.service';
 
 export const CORE_PROVIDERS: any[] = [LogService, WindowService];
 
-export * from './log.service';
-export * from './window.service';
-export * from './tokens';
+export * from '@myworkspace/core/services/log.service';
+export * from '@myworkspace/core/services/window.service';
+export * from '@myworkspace/core/services/tokens';

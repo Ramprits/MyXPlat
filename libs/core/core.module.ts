@@ -13,9 +13,9 @@ import { TranslateService } from '@ngx-translate/core';
 import { throwIfAlreadyLoaded } from '@myworkspace/utils';
 
 // app
-import { environment } from './environments/environment';
-import { CORE_PROVIDERS, PlatformLanguageToken } from './services';
-import { LogService } from './services/log.service';
+import { environment } from '@myworkspace/core/environments/environment';
+import { CORE_PROVIDERS, PlatformLanguageToken } from '@myworkspace/core/services';
+import { LogService } from '@myworkspace/core/services/log.service';
 
 /**
  * DEBUGGING
