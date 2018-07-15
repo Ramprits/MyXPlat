@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { BaseComponent } from '@myworkspace/core';
 
@@ -6,4 +6,16 @@ import { BaseComponent } from '@myworkspace/core';
   selector: 'foo-home',
   templateUrl: 'home.component.html'
 })
-export class HomeComponent extends BaseComponent {}
+export class HomeComponent extends BaseComponent implements OnInit {
+  serverElements = [
+    {
+      name: 'test server',
+      content: 'test content'
+    }
+  ];
+  constructor() {
+    super();
+  }
+
+  ngOnInit() {}
+}
