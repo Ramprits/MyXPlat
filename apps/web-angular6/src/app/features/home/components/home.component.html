@@ -1,14 +1,8 @@
 <div class="p-x-20">
-
   <h1>{{'hello' | translate}}</h1>
-  <hr> {{'applicationName'| translate}}
-  <h3>Try things out</h3>
-
-  <a href="https://nstudio.io/xplat">Learn more about xplat.</a>
-
   <div class="card border-primary">
     <app-cockpit></app-cockpit>
-    {{serverElements|json}}
+    <pre>{{serverElements | json}}</pre>
     <app-server-element *ngFor="let serverElement of serverElements" [element]="serverElement"></app-server-element>
   </div>
 

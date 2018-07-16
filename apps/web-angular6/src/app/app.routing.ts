@@ -28,13 +28,15 @@ const routes: Routes = [
   {
     path: 'cock-pit',
     loadChildren: './features/cockpit/cockpit.module#CockpitModule'
-  }
-
-
-  ,
+  },
   {
     path: 'server-element',
     loadChildren: './features/server-element/server-element.module#ServerElementModule'
+  }
+  ,
+  {
+    path: 'posts',
+    loadChildren: './features/post/post.module#PostModule'
   }
 ];
 

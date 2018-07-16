@@ -1,21 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 
 import { BaseComponent } from '@myworkspace/core';
+import { HomeService } from './home.service';
 
 @Component({
   selector: 'foo-home',
   templateUrl: 'home.component.html'
 })
 export class HomeComponent extends BaseComponent implements OnInit {
-  serverElements = [
-    {
-      name: 'test server',
-      content: 'test content'
-    }
-  ];
-  constructor() {
+  serverElements: { name: string; content: string }[];
+
+  constructor(private _hs: HomeService) {
     super();
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    setTimeout(() => {
+      this.serverElements = this._hs.serverElements;
+      console.log(this.serverElements);
+    }, 1000);
+  }
 }
